@@ -133,3 +133,7 @@ main::before {
     font-size: 2em;
     margin-top: 190px;
 }
+
+.content{
+    margin: 0;
+}
