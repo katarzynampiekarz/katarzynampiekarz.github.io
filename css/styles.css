@@ -130,7 +130,7 @@ main::before {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 1.15em;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 40px;
     line-height: 1.5;
 }
@@ -138,7 +138,7 @@ main::before {
 .ka {
     width: 20%;
     float: left;
-    margin: 50px 20px 10px 20px;
+    margin: 45px 20px 10px 20px;
     border-radius: 50%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
