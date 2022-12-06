@@ -1,19 +1,17 @@
 body {
     margin: 0;
-    background-image: url('nmj_padded.jpg');
+    background-image: url('nmj_padded2.png');
     background-color: black;
     background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
 h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 4.06em;
+    font-size: 9vh;
     position: absolute;
-    top: 100px;
-    left: 90px;
+    top: 14vh;
+    left: 12vh;
     z-index: -1;
 }
 
@@ -21,10 +19,11 @@ h2{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+    font-size: 4vh;
     letter-spacing: 0.3em;
     position: absolute;
-    top: 380px;
-    left: 90px;
+    top: 50vh;
+    left: 12vh;
     z-index: -1;
 }
 
@@ -32,17 +31,18 @@ h3{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 3.5vh;
     letter-spacing: 0.2em;
     position: absolute;
-    top: 600px;
-    left: 90px;
+    top: 80vh;
+    left: 12vh;
+     z-index: -1;
 }
 
 .copyright {
     color: grey;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
+    font-size: 2vh;
     padding: 10px auto 10px auto;
     text-align: center;
     margin-top: 0;
@@ -50,19 +50,18 @@ h3{
 
 .footer {
     background-color: black;
-    position: absolute;
+    position: fixed;
     bottom:0;
     width:100%;
-    height:30px;
+    height:4vh;
     margin-top: 0;
 }
 
 .side-link {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     text-decoration: none;
-    font-size: 2em;
 }
 
 .side-link:hover {
@@ -71,10 +70,12 @@ h3{
 
 .side-container {
     position: absolute;
-    top: 130px;
-    right: 115px;
-    padding-top: 20px;
+    top: 15vh;
+    right: 13vh;
     z-index: -1;
+    font-size: 5vh;
+    margin-top:0;
+    line-height: 1.85;
 }
 
 .lab {
@@ -89,56 +90,57 @@ h3{
 main {
     background: hsla(0,0%,100%,.1);
     width: 50%;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
     height: 70%;
+    position: absolute;
+    top: 10%; right: 25%;
     margin: auto;
-    margin-left: 400px;
     overflow: hidden;
-    border-radius: .6em;
+    border-radius: 1vh;
 }
 
 body, main::before {
-    background: url('/nmj_padded.jpg') 0 / cover fixed;
+    background: url('/nmj_padded2.png') 0 / cover fixed;
 }
 
 main::before {
     content: "";
-    -webkit-filter: blur(20px);
-    filter: blur(30px);
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    margin: -15px;
+    -webkit-filter: blur(4vh);
+    filter: blur(4vh);
+    display: inline-block;
+    position: inherit;
+    width: 100%;
+    height: 100%;
     z-index: -1;
 }
 
 .social {
     position: relative;
-    margin-top: 190px;
-    height: 90px;
-    padding: 10px;
-    left: 90px;
+    margin-top: 25vh;
+    height: 14vh;
+    padding: 1vh;
+    left: 10vh;
 
 }
 
 .social:hover {
-    height: 100px;
+    height: 15vh;
 }
 
 .about {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 1.15em;
-    margin-top: 5px;
-    padding: 40px;
+    font-size: 1.2vw;
+    margin-top: 2vh;
+    padding: 3vh;
     line-height: 1.5;
+    position: relative;
 }
 
 .ka {
     width: 20%;
     float: left;
-    margin: 45px 20px 10px 20px;
+    margin: 5vh 3vh 2vh 3vh;
     border-radius: 50%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -154,7 +156,7 @@ main::before {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 2em;
+    font-size: 2vw;
     margin-top: 120px;
     margin-left: 40px;
 }
@@ -163,7 +165,7 @@ main::before {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     margin-top: -20px;
     padding: 0 40px 40px 40px;
     line-height: 1.5;
