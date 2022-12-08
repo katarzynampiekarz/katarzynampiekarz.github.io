@@ -12,6 +12,7 @@ main {
     margin: auto;
     overflow: hidden;
     border-radius: 1vh;
+    overflow-y: auto;
 }
 
 body, main::before {
