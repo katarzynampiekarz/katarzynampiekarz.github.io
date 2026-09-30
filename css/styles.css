@@ -187,3 +187,10 @@ h3 {
 .ciona {
     font-style: italic;
 }
+.about a {
+    color: white;
+}
+
+.about a:hover {
+    color: grey;
+}
