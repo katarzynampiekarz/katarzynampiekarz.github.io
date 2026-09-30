@@ -6,14 +6,17 @@ body {
 main {
     background: hsla(0,0%,100%,.1);
     width: 90%;
-    height: 90%;
+    height: 70%;
     position: absolute;
-    top: 100vh; left: 5%;
+    top: 10%; right: 25%;
     margin: auto;
     overflow: hidden;
     border-radius: 1vh;
     overflow-y: auto;
+    -webkit-backdrop-filter: blur(4vh);
+    backdrop-filter: blur(4vh);
 }
+
 
 body {
     background: url('/nmj_padded2.png');
