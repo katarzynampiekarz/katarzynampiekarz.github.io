@@ -5,29 +5,23 @@ body {
 
 main {
     background: hsla(0,0%,100%,.1);
-    width: 80%;
-    height: 90%;
+    width: 50%;
+    height: 70%;
     position: absolute;
-    top: 100vh; left: 7%;
+    top: 10%; right: 25%;
     margin: auto;
     overflow: hidden;
     border-radius: 1vh;
     overflow-y: auto;
+    -webkit-backdrop-filter: blur(4vh);
+    backdrop-filter: blur(4vh);
 }
 
-body, main::before {
+body {
+    background: url('/nmj_padded2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
-}
-
-main::before {
-    content: "";
-    -webkit-filter: blur(4vh);
-    filter: blur(4vh);
-    display: inline-block;
-    position: inherit;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
 }
 
 h1 {
