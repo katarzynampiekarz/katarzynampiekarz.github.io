@@ -5,16 +5,14 @@ body {
 
 main {
     background: hsla(0,0%,100%,.1);
-    width: 50%;
-    height: 70%;
+    width: 90%;
+    height: 90%;
     position: absolute;
-    top: 10%; right: 25%;
+    top: 100vh; left: 5%;
     margin: auto;
     overflow: hidden;
     border-radius: 1vh;
     overflow-y: auto;
-    -webkit-backdrop-filter: blur(4vh);
-    backdrop-filter: blur(4vh);
 }
 
 body {
